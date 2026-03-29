@@ -13,16 +13,15 @@ csv:
   status_column: "status"
   validity__column: "validity"
   resolved_value: "Resolved"
-  
-# ── Similarity settings ─────────────────────────────
+  # ── Similarity settings ─────────────────────────────
 similarity:
   threshold: 0.88
   top_matches: 3
-
 # ── Embedding model ─────────────────────────────────
 embedding:
-  model_name: "all-MiniLM-L6-v2"
-
+  model_name: "nomic-embed-text"
+  ollama_url: "http://localhost:11434"
+  dimensions: 768
 # ── Approval settings ───────────────────────────────
 approval:
   reviewer_name: "AMS Reviewer"
