@@ -1,0 +1,12 @@
+ticket_id,description,resolution,status,category,priority
+SNW-001,Teamcenter session crashes on login after patch update,Restart AMS service and apply hotfix KB-1042,Resolved,Application Error,P2
+SNW-002,Unable to export BOM to Excel format,Update Excel plugin to version 3.2 and restart,Resolved,Integration,P3
+SNW-003,Teamcenter login page not loading for all users,Clear browser cache and flush DNS on server,Resolved,Access,P2
+SNW-004,Workflow approval email notifications not sending,Reconfigure SMTP settings in TC admin panel,Resolved,Workflow,P1
+SNW-005,BOM structure showing incorrect parent child relation,Re-sync BOM data from PLM and rebuild structure cache,Resolved,Data,P2
+SNW-006,Teamcenter session crashes after login,Restart AMS service apply patch KB-1042,Resolved,Application Error,P2
+SNW-007,Users cannot access Teamcenter from remote locations,Enable VPN split tunneling and whitelist TC server IP,Resolved,Access,P3
+SNW-008,Active workspace not loading dashboard widgets,Clear active workspace cache and redeploy widgets,Resolved,UI,P3
+SNW-009,BOM export to Excel failing for large assemblies,Increase Java heap size to 4GB in TC config,Resolved,Integration,P2
+SNW-010,Password reset emails not being received by users,Check spam filter rules and whitelist TC email domain,Resolved,Access,P3
+```,,,,,

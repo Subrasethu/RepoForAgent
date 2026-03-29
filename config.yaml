@@ -1,0 +1,28 @@
+# ── Project paths ──────────────────────────────────
+paths:
+  input_folder: "data/input"
+  output_folder: "data/output"
+  master_repo: "data/output/master_repo.xlsx"
+  embeddings_index: "data/output/embeddings.index"
+
+# ── CSV settings ───────────────────────────────────
+csv:
+  ticket_id_column: "ticket_id"
+  description_column: "description"
+  resolution_column: "resolution"
+  status_column: "status"
+  validity__column: "validity"
+  resolved_value: "Resolved"
+  
+# ── Similarity settings ─────────────────────────────
+similarity:
+  threshold: 0.88
+  top_matches: 3
+
+# ── Embedding model ─────────────────────────────────
+embedding:
+  model_name: "all-MiniLM-L6-v2"
+
+# ── Approval settings ───────────────────────────────
+approval:
+  reviewer_name: "AMS Reviewer"
