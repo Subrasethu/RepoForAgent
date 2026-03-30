@@ -23,5 +23,15 @@ embedding:
   ollama_url: "http://localhost:11434"
   dimensions: 768
 # ── Approval settings ───────────────────────────────
+# ── Approval & Validation settings ─────────────────
 approval:
   reviewer_name: "AMS Reviewer"
+  default_validity: "Active"
+  validity_options:
+    - "Active"
+    - "Obsolete"
+    - "Under Review"
+# ── Master repo columns ─────────────────────────────
+master_repo:
+  source_default: "CSV"
+  sop_prefix: "SOP-AMS-"
