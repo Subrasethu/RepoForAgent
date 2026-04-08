@@ -9,4 +9,4 @@ SNW-007,Users cannot access Teamcenter from remote locations,Enable VPN split tu
 SNW-008,Active workspace not loading dashboard widgets,Clear active workspace cache and redeploy widgets,Resolved,UI,P3
 SNW-009,BOM export to Excel failing for large assemblies,Increase Java heap size to 4GB in TC config,Resolved,Integration,P2
 SNW-010,Password reset emails not being received by users,Check spam filter rules and whitelist TC email domain,Resolved,Access,P3
-```,,,,,
+SNW-011,test the issue availability,Just a demo trial,Resolved,Data,P2
