@@ -125,6 +125,11 @@ def append_approved_issue(ticket, decision, approver_id,
                     e.g. 'SOP-TC-2025-042'
                     Leave empty if not available
     """
+    # Add this debug line at the very top
+    print(f"\nappend_approved_issue called for: "
+       f"{decision['ticket_id']}")
+    print(f"Approver: {approver_name} ({approver_id})")
+    
     paths     = get_paths(config)
     master_df = load_master_repo(config)
     ticket_id = decision["ticket_id"]
